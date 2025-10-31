@@ -3,15 +3,17 @@
     "title": "Support me",
     "description": "Challenges and events",
     "links": [
-      { "name": "Sponsor walking challenge", "url": "https://example.com/portfolio" }
+      { "name": "Sponsor walking challenge", "url": "#" }
     ]
   },
   {
     "title": "Follow me",
     "description": "",
     "links": [
-      { "name": "YouTube", "url": "https://medium.com/@example" },
-      { "name": "Instagram", "url": "https://dev.to/example" }
+      { "name": "YouTube", "url": "https://youtube.com/@aworkoutwarrior" },
+      { "name": "Instagram", "url": "https://instagram.com/pfwd" },
+      { "name": "Facebook", "url": "https://www.facebook.com/peter.fisher.927" },
+      { "name": "Twitter", "url": "https://twitter.com/pfwd" }
     ]
   }
 ]
