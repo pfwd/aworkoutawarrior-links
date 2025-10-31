@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Support me",
+    "description": "Challenges and events",
+    "links": [
+      { "name": "Sponsor walking challenge", "url": "https://example.com/portfolio" }
+    ]
+  },
+  {
+    "title": "Follow me",
+    "description": "",
+    "links": [
+      { "name": "YouTube", "url": "https://medium.com/@example" },
+      { "name": "Instagram", "url": "https://dev.to/example" }
+    ]
+  }
+]
