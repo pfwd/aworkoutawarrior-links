@@ -3,7 +3,7 @@
     "title": "Support me",
     "description": "Walking 75 miles for the British Heart Foundation",
     "links": [
-      { "name": "Sponsor walk", "url": "https://www.justgiving.com/page/peter-fisher-walk?utm_medium=FR&utm_source=CL", "internal": false },
+      { "name": "Sponsor Me", "url": "/sponsor", "internal": true },
       { "name": "Fundraising", "url": "/fundraising", "internal": true }
     ]
   },
