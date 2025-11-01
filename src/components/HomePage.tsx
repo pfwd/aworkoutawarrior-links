@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Twitter, Instagram, Play, Globe, Facebook, Video } from 'lucide-react';
+import { Linkedin, Twitter, Instagram, Play, Globe, Facebook, Video } from 'lucide-react';
 import profileData from '../data/profile.json';
 import socialLinks from '../data/socialLinks.json';
 import linkGroups from '../data/linkGroups.json';
