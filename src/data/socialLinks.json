@@ -1,5 +1,6 @@
 [
-  { "platform": "youtube", "url": "https://youtube.com/@aworkoutwarrior", "icon": "Play" },
+  { "platform": "youtube", "url": "https://youtube.com/@peterfisher.life", "icon": "Play" },
+  { "platform": "tiktok", "url": "https://tiktok.com/@peterfisher.life", "icon": "Video" },
   { "platform": "instagram", "url": "https://instagram.com/pfwd", "icon": "Instagram" },
   { "platform": "facebook", "url": "https://www.facebook.com/peter.fisher.927", "icon": "Facebook" },
   { "platform": "twitter", "url": "https://twitter.com/pfwd", "icon": "Twitter" }

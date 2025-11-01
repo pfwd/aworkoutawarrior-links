@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Twitter, Instagram, Globe, Play, Facebook } from 'lucide-react';
+import { Linkedin, Twitter, Instagram, Globe, Play, Facebook, Video } from 'lucide-react';
 
 import profileData from '../data/profile.json';
 import socialLinks from '../data/socialLinks.json';
@@ -12,6 +12,7 @@ const iconMap: { [key: string]: any } = {
   Globe,
   Play,
   Facebook,
+  Video,
 };
 
 const LinkTreePage: React.FC = () => {
