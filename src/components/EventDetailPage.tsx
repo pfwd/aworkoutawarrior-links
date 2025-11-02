@@ -57,7 +57,7 @@ const EventDetailPage: React.FC = () => {
         </Link>
 
         <div className="bg-white rounded-xl overflow-hidden shadow-xl">
-          {/* <img src={event.image} alt={event.title} className="w-full h-64 md:h-96 object-cover" /> */}
+          <img src={event.image} alt={event.title} className="w-full h-64 md:h-96 object-cover" />
           
           <div className="p-8">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">{event.title}</h1>
