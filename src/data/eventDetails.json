@@ -1,21 +1,43 @@
 {
   "walk-75-miles": {
-    "title": "Walk 75 Miles Challenge",
+    "title": "Walk 75 Miles for The British Heart Foundation",
     "description": "I'm taking on the challenge of walking 75 miles in November to raise money for an important cause close to my heart.",
     "fullDescription": "I'm raising money for the British Heart Foundation (BHF) and I'd be so grateful for your support.\n\nI was born in 1984 with Transposition of the Great Arteries which is a form of heart condition that affects 1 in 3000 to 1 in 5000 live births.\n\nIn November I am undergoing a pacemaker replacement.\n\nDuring my recovery and throughout November I am walking 75 miles to raise money and awareness for the BHF\n\nApproximately 7.6 million people in the UK live with heart and circulatory diseases. This includes conditions like coronary heart disease and heart failure, and more than 4 million men and over 3.6 million women are affected.",
     "date": "November 01-30, 2025",
     "location": "Gloucester, UK",
     "targetAmount": "£150",
-    "raisedAmount": "£0",
+    "raisedAmount": "£170",
     "justGivingUrl": "https://www.justgiving.com/page/peter-fisher-walk?utm_medium=FR&utm_source=CL",
     "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&h=600&fit=crop",
     "milestones": [
       {
-        "day": "Day 1-30",
-        "description": "75 mile virtual walk from Exeter Royal Hospital to the Bristol Heart Institute"
+        "day": "Day 1",
+        "description": "5.5 miles walked on treadmill"
+      },
+        {
+        "day": "Day 2",
+        "description": "4 miles walked in the Forest of Dean"
       }
     ],
     "whyImDoing": "This cause is incredibly important to me because it directly impacts the lives of people including myself. Every pound raised goes towards providing essential support and resources that can truly change lives."
+  },
+    "help-for-heroes-weighted-walk-150-miles-2023": {
+    "title": "Weighted Walk 150 Miles in July for Help For Heroes",
+    "description": "I'm walking 150 miles in July for Help For Heroes with a 30lb pack",
+    "fullDescription": "Support members of the Armed Forces community to live well after service. Help rebuild lives. I'm taking on 150 miles this July to help members of the Armed Forces feel valued, supported, and recognised. Please support me and together we can make a massive difference.",
+    "date": "July 01-30, 2023",
+    "location": "Gloucester, UK",
+    "targetAmount": "£150",
+    "raisedAmount": "£300",
+    "justGivingUrl": "https://www.facebook.com/donate/1688880898225533/",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&h=600&fit=crop",
+    "milestones": [
+      {
+        "day": "Day 1-30",
+        "description": "150 miles walked, ran, hiked and rucked with a 36lb pack"
+      }
+    ],
+    "whyImDoing": "To support our veterans."
   }
 }
 

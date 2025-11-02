@@ -1,12 +1,24 @@
 [
   {
     "id": "walk-75-miles",
-    "title": "Walk 75 Miles Challenge",
+    "title": "Walk 75 Miles for The British Heart Foundation",
     "shortDescription": "Join me as I walk 75 miles to raise funds for the British Heart Foundation",
     "date": "November 01-30, 2025",
     "location": "Gloucester, UK",
     "targetAmount": "£150",
     "raisedAmount": "£170",
-    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=400&fit=crop"
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=400&fit=crop",
+    "completed": false
+  },
+    {
+    "id": "help-for-heroes-weighted-walk-150-miles-2023",
+    "title": "Weighted Walk 150 Miles in July for Help For Heroes",
+    "shortDescription": "I'm walking 150 miles in July for Help For Heroes with a 30lb pack",
+    "date": "July 01-30, 2023",
+    "location": "Gloucester, UK",
+    "targetAmount": "£150",
+    "raisedAmount": "£300",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=400&fit=crop",
+    "completed": true
   }
 ]

@@ -4,6 +4,7 @@ import { Linkedin, Twitter, Instagram, Play, Globe, Facebook, Video } from 'luci
 import profileData from '../data/profile.json';
 import socialLinks from '../data/socialLinks.json';
 import linkGroups from '../data/linkGroups.json';
+import { Helmet } from 'react-helmet';
 
 const iconMap: { [key: string]: any } = {
   Linkedin,
@@ -17,6 +18,21 @@ const iconMap: { [key: string]: any } = {
 
 const HomePage: React.FC = () => {
   return (
+    <>
+    <Helmet>
+        <title>{profileData.name} - Links & Social Media</title>
+        <meta name="description" content={profileData.bio} />
+        <meta property="og:title" content={`${profileData.name} - Links & Social Media`} />
+        <meta property="og:description" content={profileData.bio} />
+        <meta property="og:image" content={profileData.avatar} />
+        <meta property="og:type" content="profile" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${profileData.name} - Links & Social Media`} />
+        <meta name="twitter:description" content={profileData.bio} />
+        <meta name="twitter:image" content={profileData.avatar} />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
+
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 py-12 px-4">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-8">
@@ -94,7 +110,7 @@ const HomePage: React.FC = () => {
         </div>
       </div>
     </div>
-  );
+  </>);
 };
 
 export default HomePage;
