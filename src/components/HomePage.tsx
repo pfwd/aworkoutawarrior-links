@@ -106,7 +106,7 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="text-center mt-12 text-gray-500 text-sm">
-          <p>© 2024 {profileData.name}. All rights reserved.</p>
+          <p>© 2025 {profileData.name}.</p>
         </div>
       </div>
     </div>
