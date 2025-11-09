@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { Heart, Calendar, MapPin, Target, TrendingUp } from "lucide-react";
 import eventDetails from "../data/eventDetails.json";
 import { Helmet } from "react-helmet";
-import VideoGallery from './VideoGallery';
+import VideoGallery from "./VideoGallery";
 
 const EventDetailPage: React.FC = () => {
   const { eventId } = useParams<{ eventId: string }>();
@@ -155,7 +155,7 @@ const EventDetailPage: React.FC = () => {
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">
                     The journey so far
                   </h2>
-                  <VideoGallery milestones={[... event.milestones].reverse()} />
+                  <VideoGallery milestones={[...event.milestones].reverse()} />
                 </div>
               )}
 

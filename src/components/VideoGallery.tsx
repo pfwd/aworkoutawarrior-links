@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface VideoGalleryProps {
   milestones: {
@@ -17,7 +17,9 @@ const VideoGallery: React.FC<VideoGalleryProps> = ({ milestones }) => {
   };
 
   const prevVideo = () => {
-    setCurrentIndex((prev) => (prev - 1 + milestones.length) % milestones.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + milestones.length) % milestones.length
+    );
   };
 
   return (
@@ -49,7 +51,9 @@ const VideoGallery: React.FC<VideoGalleryProps> = ({ milestones }) => {
         </div>
         <div className="mt-4 text-center">
           <h3 className="font-bold">{milestones[currentIndex].day}</h3>
-          <p className="text-gray-600">{milestones[currentIndex].description}</p>
+          <p className="text-gray-600">
+            {milestones[currentIndex].description}
+          </p>
         </div>
       </div>
 
