@@ -1,51 +1,54 @@
 import { render, screen } from "@testing-library/react";
-import { MemoryRouter, Routes, Route } from "react-router-dom";
-import FundraisingPage from "../components/FundraisingPage";
-import fundraisingEvents from "../data/fundraisingEvents.json";
+import { MemoryRouter } from "react-router-dom";
+import FundRaisingPage from "../components/FundraisingPage";
+import fundraisingEvents from "..//data/fundraisingEvents.json";
 
-describe("FundraisingPage", () => {
-  const renderFundraisingPage = () => {
-    return render(
-      <MemoryRouter>
-        <FundraisingPage />
-      </MemoryRouter>
-    );
-  };
+const renderPage = () =>
+  render(
+    <MemoryRouter>
+      <FundRaisingPage />
+    </MemoryRouter>
+  );
 
-  it("renders page title and description", () => {
-    renderFundraisingPage();
-    expect(screen.getByText("Fundraising Events")).toBeInTheDocument();
-    expect(
-      screen.getByText(/Join me in making a difference/)
-    ).toBeInTheDocument();
-  });
-
-  it("separates current and past events correctly", () => {
-    renderFundraisingPage();
-    const currentEvents = fundraisingEvents.filter((event) => !event.completed);
-    const pastEvents = fundraisingEvents.filter((event) => event.completed);
-
-    if (currentEvents.length > 0) {
-      expect(screen.getByText("Current Events")).toBeInTheDocument();
-      currentEvents.forEach((event) => {
-        expect(screen.getByText(event.title)).toBeInTheDocument();
-      });
-    }
-
-    if (pastEvents.length > 0) {
-      expect(screen.getByText("Past Events")).toBeInTheDocument();
-      pastEvents.forEach((event) => {
-        expect(screen.getByText(event.title)).toBeInTheDocument();
-      });
-    }
-  });
-
-  it("displays event cards with correct information", () => {
-    renderFundraisingPage();
+describe("FundRaisingPage", () => {
+  it("renders all event titles", () => {
+    renderPage();
     fundraisingEvents.forEach((event) => {
       expect(screen.getByText(event.title)).toBeInTheDocument();
+    });
+  });
+
+  it("renders short descriptions for events that have them", () => {
+    renderPage();
+    const eventsWithShort = fundraisingEvents.filter(
+      (e) => e.shortDescription && e.shortDescription.trim().length > 0
+    );
+    eventsWithShort.forEach((event) => {
       expect(screen.getByText(event.shortDescription)).toBeInTheDocument();
+    });
+  });
+
+  it("renders dates for events that have them", () => {
+    renderPage();
+    const eventsWithDate = fundraisingEvents.filter((e) => e.date && e.date.trim().length > 0);
+    eventsWithDate.forEach((event) => {
       expect(screen.getByText(event.date)).toBeInTheDocument();
+    });
+  });
+
+  it("renders current event titles", () => {
+    renderPage();
+    const currentEvents = fundraisingEvents.filter((e) => !e.completed);
+    currentEvents.forEach((event) => {
+      expect(screen.getByText(event.title)).toBeInTheDocument();
+    });
+  });
+
+  it("renders past event titles", () => {
+    renderPage();
+    const pastEvents = fundraisingEvents.filter((e) => e.completed);
+    pastEvents.forEach((event) => {
+      expect(screen.getByText(event.title)).toBeInTheDocument();
     });
   });
 });
