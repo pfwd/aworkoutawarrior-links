@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import { Heart, Calendar, MapPin, Target, TrendingUp } from "lucide-react";
+import { Heart, Calendar, MapPin, Target } from "lucide-react";
 import eventDetails from "../data/eventDetails.json";
 import { Helmet } from "react-helmet";
 import VideoGallery from "./VideoGallery";
