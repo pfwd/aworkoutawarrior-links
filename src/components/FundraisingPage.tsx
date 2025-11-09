@@ -69,7 +69,7 @@ const FundraisingPage: React.FC = () => {
             to={`/fundraising/${event.id}`}
             className="block w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all text-center"
           >
-            {isPast ? "View Details" : "Learn More & Sponsor"}
+            {isPast ? "View details" : "Learn more & sponsor"}
           </Link>
         </div>
       </div>
@@ -79,7 +79,7 @@ const FundraisingPage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Fundraising Events - Support My Charity Challenges</title>
+        <title>Fundraising events - Support my charity challenges</title>
         <meta
           name="description"
           content="Join me in making a difference! Explore my current and past fundraising challenges and help support important causes through charitable donations."
@@ -132,7 +132,7 @@ const FundraisingPage: React.FC = () => {
           {currentEvents.length > 0 && (
             <div className="mb-16">
               <h2 className="text-2xl font-bold text-gray-800 mb-6">
-                Current Events
+                Current events
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {currentEvents.map((event) => renderEventCard(event, false))}
@@ -144,7 +144,7 @@ const FundraisingPage: React.FC = () => {
           {pastEvents.length > 0 && (
             <div>
               <h2 className="text-2xl font-bold text-gray-800 mb-6">
-                Past Events
+                Past events
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {pastEvents.map((event) => renderEventCard(event, true))}
