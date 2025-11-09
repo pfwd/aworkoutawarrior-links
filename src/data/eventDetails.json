@@ -12,35 +12,43 @@
     "milestones": [
       {
         "day": "Day 1",
-        "description": "5.5 miles walked on treadmill"
+        "description": "5.5 miles walked on treadmill",
+        "videoId": "bGuwW5-0F3c"
       },
       {
         "day": "Day 2",
-        "description": "4 miles walked in the Forest of Dean"
-      },
-      {
-        "day": "Day 2",
-        "description": "4 miles walked in the Forest of Dean"
+        "description": "4 miles walked in the Forest of Dean",
+        "videoId": "Lh0z9W63sf0"
       },
       {
         "day": "Day 3",
-        "description": "8.43 miles walked on treadmill"
+        "description": "8.43 miles walked on treadmill",
+        "videoId": "xSu5x-1-b7o"
       },
       {
         "day": "Day 4",
-        "description": "8.45 miles walked with 10kg weighted vest"
+        "description": "8.45 miles walked with 10kg weighted vest",
+        "videoId": "lvHD-HsDE_c"
       },
       {
         "day": "Day 5",
-        "description": "6.9 miles walked on treadmill with some pushups on the side"
+        "description": "6.9 miles walked on treadmill with some pushups on the side",
+        "videoId": "-_UYdUkxGxY"
       },
       {
         "day": "Day 6",
-        "description": "3 miles walked on treadmill. "
+        "description": "3 miles walked on treadmill. ",
+        "videoId": "6-PapCIYC2c"
       },
       {
         "day": "Day 7",
-        "description": "0 miles walled - Surgery day"
+        "description": "0 miles walled - Surgery day",
+        "videoId": "We0Fnyn9jbI"
+      },
+      {
+        "day": "Day 8",
+        "description": "0.9 miles Recovery walk",
+        "videoId": "TVp556L81nA"
       }
     ],
     "whyImDoing": "This cause is incredibly important to me because it directly impacts the lives of people including myself. Every pound raised goes towards providing essential support and resources that can truly change lives."
@@ -58,7 +66,8 @@
     "milestones": [
       {
         "day": "Day 1-30",
-        "description": "150 miles walked, ran, hiked and rucked with a 36lb pack"
+        "description": "150 miles walked, ran, hiked and rucked with a 36lb pack",
+        "videoId": ""
       }
     ],
     "whyImDoing": "To support our veterans."

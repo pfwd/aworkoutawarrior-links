@@ -16,7 +16,7 @@ describe("EventDetailPage", () => {
 
   it("renders event not found for invalid event ID", () => {
     renderEventDetailPage("invalid-id");
-    expect(screen.getByText("Event Not Found")).toBeInTheDocument();
+    expect(screen.getByText("Event not found")).toBeInTheDocument();
   });
 
   it("renders event details correctly for valid event", () => {

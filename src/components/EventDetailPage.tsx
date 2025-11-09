@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { Heart, Calendar, MapPin, Target, TrendingUp } from "lucide-react";
 import eventDetails from "../data/eventDetails.json";
 import { Helmet } from "react-helmet";
+import VideoGallery from './VideoGallery';
 
 const EventDetailPage: React.FC = () => {
   const { eventId } = useParams<{ eventId: string }>();
@@ -18,13 +19,13 @@ const EventDetailPage: React.FC = () => {
         <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-gray-800 mb-4">
-              Event Not Found
+              Event not found
             </h1>
             <Link
               to="/fundraising"
               className="text-purple-600 hover:text-purple-800 font-medium"
             >
-              ← Back to Fundraising Events
+              ← Back to fundraising events
             </Link>
           </div>
         </div>
@@ -131,7 +132,7 @@ const EventDetailPage: React.FC = () => {
 
               <div className="prose max-w-none mb-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                  About This Challenge
+                  About this challenge
                 </h2>
                 {event.fullDescription.split("\n\n").map((paragraph, idx) => (
                   <p key={idx} className="text-gray-700 mb-4">
@@ -139,36 +140,28 @@ const EventDetailPage: React.FC = () => {
                   </p>
                 ))}
               </div>
+              <a
+                href={event.justGivingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-8 block w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-center text-lg hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg hover:shadow-xl"
+              >
+                <Heart className="inline-block w-6 h-6 mr-2" />
+                Sponsor me on JustGiving
+              </a>
 
               {event.milestones && (
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                    The Journey
+                    The journey so far
                   </h2>
-                  <div className="space-y-3">
-                    {event.milestones.map((milestone, idx) => (
-                      <div
-                        key={idx}
-                        className="flex items-start bg-gray-50 p-4 rounded-lg"
-                      >
-                        <TrendingUp className="w-5 h-5 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                        <div>
-                          <div className="font-semibold text-gray-800">
-                            {milestone.day}
-                          </div>
-                          <div className="text-gray-600">
-                            {milestone.description}
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+                  <VideoGallery milestones={[... event.milestones].reverse()} />
                 </div>
               )}
 
               <div className="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-xl mb-8">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Why I'm Doing This
+                  Why I'm doing this
                 </h3>
                 <p className="text-gray-700">{event.whyImDoing}</p>
               </div>
@@ -180,7 +173,7 @@ const EventDetailPage: React.FC = () => {
                 className="block w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-lg font-bold text-center text-lg hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg hover:shadow-xl"
               >
                 <Heart className="inline-block w-6 h-6 mr-2" />
-                Sponsor Me on JustGiving
+                Sponsor me on JustGiving
               </a>
             </div>
           </div>
