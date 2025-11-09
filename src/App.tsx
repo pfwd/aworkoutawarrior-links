@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
-import SponsorPage from './components/SponsorPage';
-import FundraisingPage from './components/FundraisingPage';
-import EventDetailPage from './components/EventDetailPage';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import SponsorPage from "./components/SponsorPage";
+import FundraisingPage from "./components/FundraisingPage";
+import EventDetailPage from "./components/EventDetailPage";
 
 function App() {
   return (
