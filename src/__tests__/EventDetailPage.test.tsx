@@ -3,7 +3,6 @@ import { MemoryRouter, Routes, Route } from "react-router-dom";
 import EventDetailPage from "../components/EventDetailPage";
 import eventDetails from "../data/eventDetails.json";
 
-
 describe("EventDetailPage", () => {
   const renderEventDetailPage = (eventId: string) => {
     return render(

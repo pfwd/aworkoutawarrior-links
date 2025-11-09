@@ -30,7 +30,9 @@ describe("FundRaisingPage", () => {
 
   it("renders dates for events that have them", () => {
     renderPage();
-    const eventsWithDate = fundraisingEvents.filter((e) => e.date && e.date.trim().length > 0);
+    const eventsWithDate = fundraisingEvents.filter(
+      (e) => e.date && e.date.trim().length > 0
+    );
     eventsWithDate.forEach((event) => {
       expect(screen.getByText(event.date)).toBeInTheDocument();
     });
