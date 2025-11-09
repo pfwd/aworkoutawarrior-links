@@ -11,9 +11,9 @@
     "title": "Follow me",
     "description": "",
     "links": [
-      { "name": "YouTube", "url": "https://youtube.com/@peterfisher.life",  "internal": false},
+      { "name": "YouTube", "url": "https://youtube.com/@peterfisher-life",  "internal": false},
       { "name": "TikTok", "url": "https://tiktok.com/@peterfisher.life" ,  "internal": false},
-      { "name": "Instagram", "url": "https://instagram.com/pfwd" ,  "internal": false},
+      { "name": "Instagram", "url": "https://instagram.com/peterfisher.life" ,  "internal": false},
       { "name": "Facebook", "url": "https://www.facebook.com/peter.fisher.927",  "internal": false },
       { "name": "Twitter", "url": "https://twitter.com/pfwd",  "internal": false }
     ]
