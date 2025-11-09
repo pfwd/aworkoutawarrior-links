@@ -32,7 +32,7 @@ jobs:
       run: npm run lint
 
     - name: Check format
-      run: format:check
+      run: npm run format:check
   
     - name: Check types
       run: npm run build --if-present
