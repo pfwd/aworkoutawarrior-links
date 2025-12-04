@@ -6,7 +6,7 @@
     "date": "November 01-30, 2025",
     "location": "Gloucester, UK",
     "targetAmount": "£150",
-    "raisedAmount": "£455",
+    "raisedAmount": "£530",
     "justGivingUrl": "https://www.justgiving.com/page/peter-fisher-walk?utm_medium=FR&utm_source=CL",
     "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&h=600&fit=crop",
     "milestones": [
@@ -84,6 +84,51 @@
         "day": "Day 18",
         "description": "5.5 miles walked - Getting frustrated.",
         "videoId": "8dPFTBT4Xsg"
+      },
+      {
+        "day": "Day 19",
+        "description": "3 miles walked - You can’t do these whilst recovering from pacemaker surgery",
+        "videoId": "k-kS7JesJMg"
+      },
+      {
+        "day": "Day 20",
+        "description": "Heart Attack facts you didn’t know",
+        "videoId": "euyQHwSI4CA"
+      },
+      {
+        "day": "Day 21",
+        "description": "Heart facts I bet you didn’t know",
+        "videoId": "P2ex8v917U8"
+      },
+      {
+        "day": "Day 24",
+        "description": "3 miles walked - Living with Transposition of the Great Arteries",
+        "videoId": "eJg9l7oWjHQ"
+      },
+      {
+        "day": "Day 26",
+        "description": "3 miles walked - Advent of fitness over Christmas",
+        "videoId": "5pwK2-voy4U"
+      },
+      {
+        "day": "Day 27",
+        "description": "5 miles walked - 4 pacemaker myth’s debunked",
+        "videoId": "wjrHN8isu5A"
+      },
+      {
+        "day": "Day 28",
+        "description": "4 miles walked - Who says you can’t walk and work at the same time",
+        "videoId": "sYLWMMa-yz8"
+      },
+      {
+        "day": "Day 29",
+        "description": "1.5 miles walked - Getting into the Christmas Spirit",
+        "videoId": "8aM0uYBglGk"
+      },
+      {
+        "day": "Day 30",
+        "description": "5 miles walked - Christmas Shopping in Gloucester",
+        "videoId": "C7SNQ3Eagv4"
       }
     ],
     "whyImDoing": "This cause is incredibly important to me because it directly impacts the lives of people including myself. Every pound raised goes towards providing essential support and resources that can truly change lives."
